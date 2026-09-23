@@ -41,36 +41,36 @@ public class Pessoa{
      
         if (sexo.equals("M")) { //1   
             if (IMC < 20.7) { //2   
-                return "Abaixo do peso "; //3   
+                return "Abaixo do peso"; //3   
             } else {   
                 if (IMC < 26.4) { //4   
-                    return "No peso normal "; //5   
+                    return "No peso normal"; //5   
                 } else {   
                     if (IMC < 27.8) { //6   
-                        return "Marginalmente acima do peso "; //7   
+                        return "Marginalmente acima do peso"; //7   
                     } else {   
                         if (IMC < 31.1) { //8   
-                            return "Acima do peso ideal "; //9   
+                            return "Acima do peso"; //9   
                         } else {   
-                            return "Obeso "; //10   
+                            return "Obeso"; //10   
                         }   
                     }   
                 }   
             }   
         } else {   
             if (IMC < 19.1) { //11   
-                return "Abaixo do peso "; //12   
+                return "Abaixo do peso"; //12   
             } else {   
                 if (IMC < 25.8) { //13   
-                    return "No peso normal "; //14   
+                    return "No peso normal"; //14   
                 } else {   
                     if (IMC < 27.3) { //15   
-                        return "Marginalmente acima do peso "; //16   
+                        return "Marginalmente acima do peso"; //16   
                     } else {   
                         if (IMC < 32.3) { //17   
-                            return "Acima do peso ideal "; //18   
+                            return "Acima do peso"; //18   
                         } else {   
-                            return "Obeso "; //19   
+                            return "Obeso"; //19   
                         }   
                     }   
                 }   
