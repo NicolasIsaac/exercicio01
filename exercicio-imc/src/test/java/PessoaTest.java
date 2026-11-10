@@ -1,3 +1,4 @@
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +10,7 @@ class PessoaTest {
 
     @BeforeEach
     void setUp() {
-        pessoa = new Pessoa();
+        pessoa = new Pessoa(new CalculadoraIMC());
     }
 
     @Test
@@ -17,7 +18,7 @@ class PessoaTest {
         pessoa.setPeso(82.4);
         pessoa.setAltura(2);
         pessoa.setSexo("M");
-        assertEquals("Abaixo do peso", pessoa.CalcularIMC());
+        assertEquals("Abaixo do peso", pessoa.VerificarPeso());
     }
 
     @Test
@@ -25,7 +26,7 @@ class PessoaTest {
         pessoa.setPeso(76);
         pessoa.setAltura(2);
         pessoa.setSexo("F");
-        assertEquals("Abaixo do peso", pessoa.CalcularIMC());
+        assertEquals("Abaixo do peso", pessoa.VerificarPeso());
     }
 
     @Test
@@ -33,7 +34,7 @@ class PessoaTest {
         pessoa.setPeso(105.2);
         pessoa.setAltura(2);
         pessoa.setSexo("M");
-        assertEquals("No peso normal", pessoa.CalcularIMC());
+        assertEquals("No peso normal", pessoa.VerificarPeso());
     }
 
     @Test
@@ -41,15 +42,15 @@ class PessoaTest {
         pessoa.setPeso(102.8);
         pessoa.setAltura(2);
         pessoa.setSexo("F");
-        assertEquals("No peso normal", pessoa.CalcularIMC());
+        assertEquals("No peso normal", pessoa.VerificarPeso());
     }
-    
+
     @Test
     void deveEstarMarginalmenteAcimaDoPesoM() {
         pessoa.setPeso(110.8);
         pessoa.setAltura(2);
         pessoa.setSexo("M");
-        assertEquals("Marginalmente acima do peso", pessoa.CalcularIMC());
+        assertEquals("Marginalmente acima do peso", pessoa.VerificarPeso());
     }
 
     @Test
@@ -57,7 +58,7 @@ class PessoaTest {
         pessoa.setPeso(108.8);
         pessoa.setAltura(2);
         pessoa.setSexo("F");
-        assertEquals("Marginalmente acima do peso", pessoa.CalcularIMC());
+        assertEquals("Marginalmente acima do peso", pessoa.VerificarPeso());
     }
 
     @Test
@@ -65,7 +66,7 @@ class PessoaTest {
         pessoa.setPeso(124);
         pessoa.setAltura(2);
         pessoa.setSexo("M");
-        assertEquals("Acima do peso", pessoa.CalcularIMC());
+        assertEquals("Acima do peso", pessoa.VerificarPeso());
     }
 
     @Test
@@ -73,22 +74,22 @@ class PessoaTest {
         pessoa.setPeso(128.8);
         pessoa.setAltura(2);
         pessoa.setSexo("F");
-        assertEquals("Acima do peso", pessoa.CalcularIMC());
+        assertEquals("Acima do peso", pessoa.VerificarPeso());
     }
 
-    @Test 
+    @Test
     void deveEstarObesoM() {
         pessoa.setPeso(124.4);
         pessoa.setAltura(2);
         pessoa.setSexo("M");
-        assertEquals("Obeso", pessoa.CalcularIMC());
+        assertEquals("Obeso", pessoa.VerificarPeso());
     }
-    
+
     @Test
     void deveEstarObesoF() {
         pessoa.setPeso(129.2);
         pessoa.setAltura(2);
         pessoa.setSexo("F");
-        assertEquals("Obeso", pessoa.CalcularIMC());
+        assertEquals("Obeso", pessoa.VerificarPeso());
     }
 }

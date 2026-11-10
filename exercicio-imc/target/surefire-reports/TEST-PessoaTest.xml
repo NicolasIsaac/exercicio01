@@ -1,67 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="PessoaTest" time="0.156" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="PessoaTest" time="0.023" tests="10" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="25"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/workspaces/exercicio01/exercicio-imc/target/test-classes:/workspaces/exercicio01/exercicio-imc/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:"/>
-    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc\target\test-classes;C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc\target\classes;C:\Users\nicol\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\nicol\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\nicol\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\nicol\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nicol\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\nicol\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\nicol\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\nicol\.m2\repository\net\bytebuddy\byte-buddy\1.15.4\byte-buddy-1.15.4.jar;C:\Users\nicol\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.4\byte-buddy-agent-1.15.4.jar;C:\Users\nicol\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://www.microsoft.com"/>
-    <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.4+1-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/exercicio01/exercicio-imc/target/surefire/surefirebooter-20260923201402419_3.jar /workspaces/exercicio01/exercicio-imc/target/surefire 2026-09-23T20-14-02_223-jvmRun1 surefire-20260923201402419_1tmp surefire_0-20260923201402419_2tmp"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\nicol\AppData\Local\Temp\surefire1025549763162775453\surefirebooter-20261110181344527_3.jar C:\Users\nicol\AppData\Local\Temp\surefire1025549763162775453 2026-11-10T18-13-43_956-jvmRun1 surefire-20261110181344527_1tmp surefire_0-20261110181344527_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/workspaces/exercicio01/exercicio-imc/target/test-classes:/workspaces/exercicio01/exercicio-imc/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:"/>
+    <property name="surefire.test.class.path" value="C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc\target\test-classes;C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc\target\classes;C:\Users\nicol\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\nicol\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\nicol\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\nicol\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nicol\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\nicol\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\nicol\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\nicol\.m2\repository\net\bytebuddy\byte-buddy\1.15.4\byte-buddy-1.15.4.jar;C:\Users\nicol\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.4\byte-buddy-agent-1.15.4.jar;C:\Users\nicol\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/codespace"/>
-    <property name="user.language" value="en"/>
+    <property name="user.home" value="C:\Users\nicol"/>
+    <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2026-08-18"/>
-    <property name="java.home" value="/usr/local/sdkman/candidates/java/25.0.4+1-ms"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/workspaces/exercicio01/exercicio-imc"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/exercicio01/exercicio-imc/target/surefire/surefirebooter-20260923201402419_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nicol\AppData\Local\Temp\surefire1025549763162775453\surefirebooter-20261110181344527_3.jar"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.4.1+1-LTS"/>
-    <property name="user.name" value="codespace"/>
-    <property name="stdout.encoding" value="UTF-8"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.8.0-1064-azure"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
+    <property name="user.name" value="nicol"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Microsoft-14951822"/>
-    <property name="localRepository" value="/home/codespace/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="25.0.4.1"/>
-    <property name="user.dir" value="/workspaces/exercicio01/exercicio-imc"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nicol\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nicol\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="C:\Users\nicol\IdeaProjects\ex1\exercicio01\exercicio-imc"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\nodejs\;C:\xampp\php;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\nicol\scoop\apps\maven\current\bin;C:\Users\nicol\scoop\shims;C:\Users\nicol\AppData\Local\Programs\Python\Launcher\;C:\Users\nicol\AppData\Local\Microsoft\WindowsApps;C:\Users\nicol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nicol\.dotnet\tools;C:\Users\nicol\AppData\Roaming\npm;php;C:\Users\nicol\AppData\Local\GitHubDesktop\bin;C:\Users\nicol\AppData\Local\Programs\cursor\resources\app\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Microsoft"/>
-    <property name="java.vm.version" value="25.0.4.1+1-LTS"/>
-    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="69.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="deveEstarObesoF" classname="PessoaTest" time="0.054"/>
-  <testcase name="deveEstarObesoM" classname="PessoaTest" time="0.001"/>
+  <testcase name="deveEstarObesoF" classname="PessoaTest" time="0.005"/>
+  <testcase name="deveEstarObesoM" classname="PessoaTest" time="0.002"/>
   <testcase name="deveEstarNoPesoNormalF" classname="PessoaTest" time="0.001"/>
-  <testcase name="deveEstarNoPesoNormalM" classname="PessoaTest" time="0.006"/>
-  <testcase name="deveEstarAbaixoDoPesoF" classname="PessoaTest" time="0.006"/>
-  <testcase name="deveEstarAbaixoDoPesoM" classname="PessoaTest" time="0.004"/>
-  <testcase name="deveEstarAcimaDoPesoF" classname="PessoaTest" time="0.005"/>
-  <testcase name="deveEstarAcimaDoPesoM" classname="PessoaTest" time="0.005"/>
-  <testcase name="deveEstarMarginalmenteAcimaDoPesoF" classname="PessoaTest" time="0.007"/>
-  <testcase name="deveEstarMarginalmenteAcimaDoPesoM" classname="PessoaTest" time="0.0"/>
+  <testcase name="deveEstarNoPesoNormalM" classname="PessoaTest" time="0.001"/>
+  <testcase name="deveEstarAbaixoDoPesoF" classname="PessoaTest" time="0.001"/>
+  <testcase name="deveEstarAbaixoDoPesoM" classname="PessoaTest" time="0.002"/>
+  <testcase name="deveEstarAcimaDoPesoF" classname="PessoaTest" time="0.001"/>
+  <testcase name="deveEstarAcimaDoPesoM" classname="PessoaTest" time="0.0"/>
+  <testcase name="deveEstarMarginalmenteAcimaDoPesoF" classname="PessoaTest" time="0.0"/>
+  <testcase name="deveEstarMarginalmenteAcimaDoPesoM" classname="PessoaTest" time="0.001"/>
 </testsuite>
