@@ -4,17 +4,11 @@ public class Pessoa {
     private double peso;
     private double altura;
 
-    private CalculadoraIMC calculadoraIMC;
 
-    public Pessoa(CalculadoraIMC calculadoraIMC) {
-        this.calculadoraIMC = calculadoraIMC;
-    }
-
-    public Pessoa(String sexo, double peso, double altura, CalculadoraIMC calculadoraIMC) {
+    public Pessoa(String sexo, double peso, double altura) {
         this.sexo = sexo;
         this.peso = peso;
         this.altura = altura;
-        this.calculadoraIMC = calculadoraIMC;
     }
 
     public void setSexo(String sexo) {
@@ -41,21 +35,21 @@ public class Pessoa {
         return this.altura;
     }
 
-    public String VerificarPeso() {
+    public String verificarPeso(CalculadoraIMC calculadora) {
 
-        double IMC = calculadoraIMC.calcularIMC(peso, altura);
+        double imc = calculadora.calcularIMC(this);
 
         if (sexo.equals("M")) {
-            if (IMC < 20.7) {
+            if (imc < 20.7) {
                 return "Abaixo do peso";
             } else {
-                if (IMC < 26.4) {
+                if (imc < 26.4) {
                     return "No peso normal";
                 } else {
-                    if (IMC < 27.8) {
+                    if (imc < 27.8) {
                         return "Marginalmente acima do peso";
                     } else {
-                        if (IMC < 31.1) {
+                        if (imc < 31.1) {
                             return "Acima do peso";
                         } else {
                             return "Obeso";
@@ -64,16 +58,16 @@ public class Pessoa {
                 }
             }
         } else {
-            if (IMC < 19.1) {
+            if (imc < 19.1) {
                 return "Abaixo do peso";
             } else {
-                if (IMC < 25.8) {
+                if (imc < 25.8) {
                     return "No peso normal";
                 } else {
-                    if (IMC < 27.3) {
+                    if (imc < 27.3) {
                         return "Marginalmente acima do peso";
                     } else {
-                        if (IMC < 32.3) {
+                        if (imc < 32.3) {
                             return "Acima do peso";
                         } else {
                             return "Obeso";
