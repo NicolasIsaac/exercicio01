@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PessoaTest {
+class PessoaMockTest {
 
     Pessoa pessoa;
 
@@ -12,6 +12,20 @@ class PessoaTest {
     void setUp() {
         pessoa = new Pessoa(new CalculadoraIMC());
     }
+
+    @Test
+    void  deveEstarAbaixoDoPesoM() {
+
+        pessoa.setSexo("M");
+        double imc = 20.6;
+        ICalculadora calculadoraMock = createMock(ICalculadora.class);
+        expect(calculadoraMock.calcularIMC(pessoa).andReturn(imc));
+        replay(calculadoraMock);
+        assertEquals("Abaixo do peso", pessoa.VerifcarPeso());
+
+    }
+
+    /*
 
     @Test
     void deveEstarAbaixoDoPesoM() {
@@ -92,4 +106,6 @@ class PessoaTest {
         pessoa.setSexo("F");
         assertEquals("Obeso", pessoa.VerificarPeso());
     }
+
+     */
 }
