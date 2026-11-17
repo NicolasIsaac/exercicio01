@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d666c54f-f890-4242-a38f-2a5ae4bb8532" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/main/java/CalculadoraIMC.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/main/java/CalculadoraIMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/main/java/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/main/java/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-imc/target/classes/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/target/classes/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-imc/target/test-classes/PessoaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/target/test-classes/PessoaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -24,16 +35,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicol/IdeaProjects/ex1/exercicio01&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.PessoaMockTest.deveEstarAbaixoDoPesoF.executor": "Run",
+    "JUnit.PessoaMockTest.deveEstarAbaixoDoPesoM.executor": "Run",
+    "JUnit.PessoaMockTest.executor": "Coverage",
+    "JUnit.PessoaTest.executor": "Coverage",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nicol/IdeaProjects/ex1/exercicio01"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.PessoaMockTest">
+    <configuration name="PessoaMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercicio-imc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PessoaMockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaMockTest.deveEstarAbaixoDoPesoF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercicio-imc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PessoaMockTest" />
+      <option name="METHOD_NAME" value="deveEstarAbaixoDoPesoF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaMockTest.deveEstarAbaixoDoPesoM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercicio-imc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PessoaMockTest" />
+      <option name="METHOD_NAME" value="deveEstarAbaixoDoPesoM" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercicio-imc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PessoaMockTest" />
+        <item itemvalue="JUnit.PessoaTest" />
+        <item itemvalue="JUnit.PessoaMockTest.deveEstarAbaixoDoPesoF" />
+        <item itemvalue="JUnit.PessoaMockTest.deveEstarAbaixoDoPesoM" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d666c54f-f890-4242-a38f-2a5ae4bb8532" name="Changes" comment="" />
@@ -43,5 +108,20 @@
       <updated>1794355793919</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exercicio01$PessoaMockTest.ic" NAME="PessoaMockTest Coverage Results" MODIFIED="1794881345904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/exercicio01$PessoaTest.ic" NAME="PessoaTest Coverage Results" MODIFIED="1794881991952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

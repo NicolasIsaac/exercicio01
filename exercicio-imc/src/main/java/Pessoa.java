@@ -4,6 +4,7 @@ public class Pessoa {
     private double peso;
     private double altura;
 
+    public Pessoa(){}
 
     public Pessoa(String sexo, double peso, double altura) {
         this.sexo = sexo;
@@ -35,7 +36,7 @@ public class Pessoa {
         return this.altura;
     }
 
-    public String verificarPeso(CalculadoraIMC calculadora) {
+    public String verificarPeso(ICalculadoraIMC calculadora) {
 
         double imc = calculadora.calcularIMC(this);
 
