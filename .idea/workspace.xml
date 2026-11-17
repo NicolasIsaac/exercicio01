@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d666c54f-f890-4242-a38f-2a5ae4bb8532" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/main/java/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/main/java/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaMockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/src/test/java/PessoaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/target/classes/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/target/classes/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-imc/target/test-classes/PessoaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-imc/target/test-classes/PessoaTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="d666c54f-f890-4242-a38f-2a5ae4bb8532" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +28,7 @@
   "keyToString": {
     "JUnit.PessoaMockTest.deveEstarAbaixoDoPesoF.executor": "Run",
     "JUnit.PessoaMockTest.deveEstarAbaixoDoPesoM.executor": "Run",
-    "JUnit.PessoaMockTest.executor": "Coverage",
+    "JUnit.PessoaMockTest.executor": "Run",
     "JUnit.PessoaTest.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
