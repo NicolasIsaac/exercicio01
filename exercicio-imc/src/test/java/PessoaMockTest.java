@@ -10,7 +10,7 @@ class PessoaMockTest {
 
     @BeforeEach
     void setUp() {
-        pessoa = new Pessoa(new CalculadoraIMC());
+        Pessoa pessoa = new Pessoa();
     }
 
     @Test
@@ -18,10 +18,10 @@ class PessoaMockTest {
 
         pessoa.setSexo("M");
         double imc = 20.6;
-        ICalculadora calculadoraMock = createMock(ICalculadora.class);
-        expect(calculadoraMock.calcularIMC(pessoa).andReturn(imc));
+        ICalculadoraIMC calculadoraMock = createMock(ICalculadoraIMC.class);
+        expect(calculadoraMock.calcularIMC(this).andReturn(imc));
         replay(calculadoraMock);
-        assertEquals("Abaixo do peso", pessoa.VerifcarPeso());
+        assertEquals("Abaixo do peso", pessoa.verificarPeso(calculadoraMock));
 
     }
 
